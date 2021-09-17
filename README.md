@@ -1,2 +1,2 @@
 # solidityRepo
-Solidiy baby steps
+Solidiy and swahili
