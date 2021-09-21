@@ -1,4 +1,4 @@
-pragma >=0.5.0 < 0.6.0
+pragma >=0.5.0 < 0.6.0;
 
 /*
 When you want a collection of something in solidity you can use an array.
