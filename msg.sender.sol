@@ -53,3 +53,5 @@ function whatIsMyNumber() public view returns (uint) {
     //Will be '0' if the sender hasn't called 'setMyNumber' yet
     return favoriteNumber[msg.sender];
 }
+
+
