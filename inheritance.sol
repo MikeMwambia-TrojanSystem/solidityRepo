@@ -41,5 +41,5 @@ contract ZombieFactory {
 //This means that all the public functions available in Zombie Factory
 //Will be available in ZombieFeeding contract.
 contract ZombieFeeding is ZombieFactory {
-
+        
 }
