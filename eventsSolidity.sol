@@ -13,9 +13,10 @@ contract ZombieFactory {
         uint dna;
     }
 
+    //The structs always begins for the array
     Zombie[] public zombies;
 
-    function _createZombie(string memory _name, uint _dna) private {
+    function _createZombie(string memory _name, uint memory _dna) private {
         // and fire it here
         uint id = zombies.push(Zombie(_name,_dna))-1;
         emit NewZombie(id,_name,_dna);

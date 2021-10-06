@@ -38,7 +38,7 @@ contract ZombieFactory {
 
 
 //Inheritance works like this in solidity
-//This means that all the public functions available in Zombie Factory
+//This means that all the PUBLIC functions available in Zombie Factory
 //Will be available in ZombieFeeding contract.
 contract ZombieFeeding is ZombieFactory {
         
