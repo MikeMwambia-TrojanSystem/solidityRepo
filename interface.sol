@@ -9,7 +9,7 @@ contract luckNumber {
         return numbers[_myAddress];
     }
 }
-
+//You interact with other contracts you do not own through interfaces
 //The interface for the above function would be : - 
 contract NumbInterface {
     function getNum(address _myAddress) public view returns (uint);
