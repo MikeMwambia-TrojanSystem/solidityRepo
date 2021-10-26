@@ -23,7 +23,7 @@ contract SandwichFactory {
     sandwich[] sandwiches;
 
     function eatSandWich(uint _index) public {
-        //sandwich mySandwich = sandwich[_index];
+        sandwich mySandwich = sandwich[_index];
 
         //^ Seems pretty straightforward , but soliditiy will give you a warning
         //telling you that you should declare 'storage' or 'memory' here.
